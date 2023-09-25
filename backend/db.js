@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
   host     : "localhost",
   user     : "root",
   password : "",
-  database : "nutrifood"
+  database : "integrador"
 });
 
 module.exports = connection;

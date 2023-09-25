@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Navbar, Nav, Container, Offcanvas, ToggleButton, Button, Figure, Row, Col, ListGroup, Modal } from "react-bootstrap";
+import { Navbar, Nav, Container, Offcanvas, ToggleButton, Button, Figure, Row, Col, ListGroup, Modal} from "react-bootstrap";
 
 import { useMediaQuery } from "react-responsive";
 import { Link, useSearchParams } from "react-router-dom";
@@ -64,7 +64,7 @@ const HeaderConst = () => {
       <Navbar sticky="top" className="flex-nowrap" collapseOnSelect>
         <div id="nav-cont" data-test="links">
           {isResponsive ? (
-            <Row> <Col></Col>
+            <Row>
               <Col>
                 <Figure>
                   <Figure.Image src={logo} width={64} height={64}>
@@ -213,7 +213,7 @@ const HeaderConst = () => {
 
                 </Nav>
                 <Nav className="me-auto">
-                  <div className="div-link">
+                  <div className="div-link entrar">
                     {userName ? (
                       <Button>
                         <ion-icon name="person"></ion-icon>
